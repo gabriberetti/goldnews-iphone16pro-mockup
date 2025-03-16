@@ -2,8 +2,6 @@
 
 Modern landing page showcasing the GoldNews trading app in an iPhone 16 Pro frame with animated background.
 
-![GoldNews App Mockup](https://github.com/gabriberetti/goldnews-iphone16pro-mockup/raw/main/public/assets/Mockup2.png)
-
 ## Features
 
 - Apple-inspired design with animated dark gradient background
