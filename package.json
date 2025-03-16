@@ -1,0 +1,16 @@
+{
+  "name": "iphone-mockup-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page showcasing an iPhone 16 Pro mockup with a video preview",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "iphone",
+    "mockup",
+    "landing-page"
+  ],
+  "author": "",
+  "license": "MIT"
+} 

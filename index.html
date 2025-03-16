@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoldNews - The Ultimate XAU/USD Trading Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="iphone-container">
+            <div class="screen-area">
+                <!-- Switch back to original video -->
+                <video id="phoneVideo" autoplay loop muted playsinline controls class="app-video">
+                    <source src="./public/assets/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="iphone-frame">
+                <img src="./public/assets/Mockup.svg" alt="iPhone 16 Pro Mockup">
+            </div>
+        </div>
+        <div class="content">
+            <div class="app-title">
+                <h1>GoldNews</h1>
+                <p class="tagline">Your XAU/USD Trading Platform</p>
+            </div>
+            
+            <p class="app-description">Your go-to app for staying ahead in the gold market. Designed for traders and investors, it provides real-time gold price updates, expert news, and AI-driven predictions to help you make smarter trading decisions.</p>
+            
+            <div class="features-section">
+                <h2>Key Features</h2>
+                <ul class="features-list">
+                    <li>
+                        <span class="feature-icon">✅</span>
+                        <div class="feature-text">
+                            <span><strong>Live Gold Price Monitoring</strong> – Stay updated with real-time XAU/USD prices and market movements.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">📰</span>
+                        <div class="feature-text">
+                            <span><strong>Gold-Focused News Feed</strong> – Get all relevant news, fundamentals, and macroeconomic updates in one place.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">📅</span>
+                        <div class="feature-text">
+                            <span><strong>Economic Calendar</strong> – Track key events that impact gold prices, including FOMC meetings, CPI reports, and interest rate decisions.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">📊</span>
+                        <div class="feature-text">
+                            <span><strong>Technical Analysis & Trading Signals</strong> – Access AI-powered insights, trend indicators, and buy/sell signals.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">🤖</span>
+                        <div class="feature-text">
+                            <span><strong>AI-Driven Price Predictions</strong> – Use advanced analytics to forecast gold price movements for the next 4 hours.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">🔢</span>
+                        <div class="feature-text">
+                            <span><strong>Custom Price Calculator</strong> – Predict potential price levels based on current market trends.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">📈</span>
+                        <div class="feature-text">
+                            <span><strong>Interactive Real-Time Chart</strong> – Analyze price movements with customizable timeframes and technical indicators.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <p class="empowerment">GoldNews empowers you with the tools you need to trade confidently and effectively.</p>
+            
+            <div class="footer">
+                <p class="copyright">© 2025 Gabriele Beretti. All rights reserved.</p>
+                <a href="mailto:gabri.beretti@gmail.com" class="contact-button">
+                    <i class="fa-solid fa-envelope"></i> Contact Me
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.getElementById('phoneVideo');
+            
+            // Log when video is loaded
+            video.addEventListener('loadeddata', function() {
+                console.log('Video loaded successfully');
+            });
+            
+            // Log any errors
+            video.addEventListener('error', function(e) {
+                console.error('Video error:', e);
+            });
+            
+            // Force video to load and play
+            video.load();
+            setTimeout(() => {
+                video.play().catch(e => console.error('Play error:', e));
+            }, 1000);
+        });
+    </script>
+</body>
+</html> 
